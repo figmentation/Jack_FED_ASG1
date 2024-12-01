@@ -22,3 +22,4 @@ User Stories
 
 1.Homepage
 -A carousell to show past companies that had used the service of Magiska.
+-b
