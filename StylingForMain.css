@@ -495,13 +495,13 @@ button:hover .button-text {
 
 /* Heading styling inside the front box */
 .front h2{
-    font-family: Sans-Serif;
-    text-align: center;
-    color: black;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: Helvetica;
+    font-family: Sans-Serif; /* Font family */
+    text-align: center; /* Center-align text */
+    color: black; /* Black color */
+    margin-bottom: 20px; /* Margin at the bottom */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    font-style: Helvetica; /* Font style */
 }
 
 /* Media queries for mobile improvements */
@@ -509,245 +509,244 @@ button:hover .button-text {
 /* For devices with a max width of 768px */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 15px;
+        flex-direction: column; /* Stack elements vertically */
+        width: 100%; /* Full width */
+        padding: 0 15px; /* Padding for smaller devices */
     }
 
     .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-        padding: 20px;
+        width: 100%; /* Full-width sidebar */
+        border-right: none; /* Remove border */
+        border-bottom: 1px solid #ddd; /* Add bottom border */
+        padding: 20px; /* Padding for sidebar */
     }
 
     .hero h1 {
-        font-size: 1.8em;
-        margin-top: 80px;
+        font-size: 1.8em; /* Adjust font size */
+        margin-top: 80px; /* Adjust top margin */
     }
 
     .hero h2 {
-        font-size: 1.2em;
+        font-size: 1.2em; /* Adjust font size */
     }
 
     .Magician1 {
-        width: 120px;
-        height: 120px;
-        border: 5px solid;
+        width: 120px; /* Reduce image size */
+        height: 120px; /* Reduce height */
+        border: 5px solid; /* Border adjustment */
     }
 
     .conveyor-track {
-        gap: 15px;
+        gap: 15px; /* Reduce gap between items */
     }
 
     .conveyor-item {
-        font-size: 1em;
-        padding: 5px 10px;
+        font-size: 1em; /* Smaller font size */
+        padding: 5px 10px; /* Adjust padding */
     }
 
     .text-conveyor {
-        padding: 10px 0;
+        padding: 10px 0; /* Padding adjustment */
     }
 
     .content-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        width: 100%;
-        margin: 0 auto;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        gap: 10px; /* Adjust gap */
+        width: 100%; /* Full width */
+        margin: 0 auto; /* Center container */
     }
 
     .front, .back {
-        padding: 15px;
+        padding: 15px; /* Adjust padding */
     }
 
     button.learn-more {
-        width: 10rem;
+        width: 10rem; /* Adjust button width */
     }
 
     .about-section {
-        width: 90%;
-        padding: 20px;
+        width: 90%; /* Adjust width */
+        padding: 20px; /* Adjust padding */
     }
 }
 
 /* For devices with a max width of 480px */
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Further reduce font size */
     }
 
     .hero h2 {
-        font-size: 1em;
+        font-size: 1em; /* Further reduce font size */
     }
 
     .Magician1 {
-        width: 100px;
-        height: 100px;
+        width: 100px; /* Smaller image size */
+        height: 100px; /* Smaller height */
     }
 
     .content-container {
-        gap: 5px;
-        padding: 0 10px;
+        gap: 5px; /* Reduce gap */
+        padding: 0 10px; /* Adjust padding */
     }
 
     .text-conveyor {
-        padding: 5px 0;
+        padding: 5px 0; /* Reduce padding */
     }
 
     .conveyor-item {
-        font-size: 0.9em;
-        padding: 5px 8px;
+        font-size: 0.9em; /* Further reduce font size */
+        padding: 5px 8px; /* Adjust padding */
     }
 
     .about-section {
-        padding: 20px;
+        padding: 20px; /* Padding adjustment */
     }
 
     .front, .back {
-        padding: 10px;
+        padding: 10px; /* Padding adjustment */
     }
 }
 
 /* Flip card container for interactive cards */
 .content-container {
-    position: relative;
-    width: 350px;
-    height: 450px;
-    margin: 20px;
-    transform-style: preserve-3d;
-    transition: transform 0.6s ease;
+    position: relative; /* Positioning */
+    width: 350px; /* Card width */
+    height: 450px; /* Card height */
+    margin: 20px; /* Margin around the card */
+    transform-style: preserve-3d; /* Enable 3D effect */
+    transition: transform 0.6s ease; /* Flip transition */
 }
 
 /* Flip card effect on hover */
 .content-container:hover {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /* Rotate the card */
 }
 
 /* Front and back faces of the card */
 .front, .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    backface-visibility: hidden;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #FFFAFA;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Absolute positioning */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    border-radius: 8px; /* Rounded corners */
+    backface-visibility: hidden; /* Hide backface during flip */
+    overflow: hidden; /* Hide overflow */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content */
+    align-items: center; /* Center content */
+    text-align: center; /* Center-align text */
+    background: #FFFAFA; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
 }
 
 /* Front face of the card */
 .front {
-    transform: rotateY(0deg);
+    transform: rotateY(0deg); /* Keep front face visible initially */
 }
 
 /* Styling for images on the front of the card */
 .front img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    width: 100px; /* Image width */
+    height: 100px; /* Image height */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px; /* Bottom margin */
 }
 
 /* Heading and paragraph styling for the front of the card */
 .front h2, .front h3, .front p {
-    margin: 1px;
+    margin: 1px; /* Small margin */
 }
 
 /* Back face of the card */
 .back {
-    transform: rotateY(180deg);
-    background: #FFFAFA;
-    color: black;
+    transform: rotateY(180deg); /* Initially hidden, rotated */
+    background: #FFFAFA; /* Background color */
+    color: black; /* Text color */
 }
 
 /* Styling for logos inside the back of the card */
 .logos {
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
-    padding: 5px 15px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-    width: 70px;
-    height: auto;
-    margin: 5px;
-    display: inline-block;
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    color: black; /* Text color */
+    padding: 5px 15px; /* Padding */
+    border: 2px solid black; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background */
+    display: inline-block; /* Inline block display */
+    margin: 10px; /* Margin */
+    text-align: center; /* Center-align text */
+    width: 70px; /* Set width */
+    height: auto; /* Automatic height */
+    margin: 5px; /* Margin */
+    display: inline-block; /* Inline block for multiple items */
 }
 
 /* Conveyor animation for scrolling text */
 .text-conveyor {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    padding: 20px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+    position: relative; /* Positioning */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflow */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px 0; /* Padding */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    margin: 20px 0; /* Margin */
 }
 
 /* Track for the conveyor animation */
 .conveyor-track {
-    display: flex;
-    gap: 50px;
-    white-space: nowrap;
-    animation: scroll 15s linear infinite;
-    cursor: grab;
+    display: flex; /* Flexbox display */
+    gap: 50px; /* Space between items */
+    white-space: nowrap; /* Prevent text wrapping */
+    animation: scroll 15s linear infinite; /* Animation for scrolling */
+    cursor: grab; /* Change cursor */
 }
 
 /* Individual items on the conveyor */
 .conveyor-item {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.5em; /* Larger text */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark color */
+    display: inline-block; /* Inline block display */
+    padding: 10px 20px; /* Padding around items */
+    background-color: #f9f9f9; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
 }
 
 /* Keyframes for scrolling animation */
 @keyframes scroll {
     from {
-        transform: translateX(0);
+        transform: translateX(0); /* Start position */
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-100%); /* End position */
     }
 }
 
 /* Pause scrolling on hover */
 .text-conveyor:hover .conveyor-track {
-    animation-play-state: paused;
+    animation-play-state: paused; /* Pause the animation */
 }
 
 /* Styling for text in the conveyor */
 .text-conveyor p{
-    font-size: 20px;
-    font-style: Bebas Neue;
-    font-weight: bold;
+    font-size: 20px; /* Font size */
+    font-style: Bebas Neue; /* Font style */
+    font-weight: bold; /* Bold text */
 }
 
 /* Styling for images in the conveyor */
 .conveyor-item img {
-    border: 5px solid #00000000;
-    width: 150px;
-    height: auto;
-    align-items: center;
-    padding: auto;
+    border: 5px solid #00000000; /* No border */
+    width: 150px; /* Image width */
+    height: auto; /* Auto height */
+    align-items: center; /* Center-align */
+    padding: auto; /* Center padding */
 }
-
 
 
 
